@@ -1,0 +1,38 @@
+nav{
+    margin:1px,0;
+    width: 100%;
+    height: 6vh;
+    justify-content: space-around;
+    display:inline-flex;  
+    align-items: center;
+    color: #fff;
+    background-color: rgba(24, 23, 23, 0.822);
+}
+.logo{
+    margin-right: 45%;
+}
+.logo img{
+    width: 60px;
+}
+.pesquisa{
+    border-style:hidden;
+    border-radius: 4px;
+    width: 300px;
+    height: 22px;
+    margin-left: 16%;
+    background-color: rgba(91, 247, 104, 0.548);
+}
+.btn-pesquisa{
+    background-color: rgba(110, 101, 101, 0.473);
+    width: 1px;
+    height: 25px;
+    margin-left: -135%;
+}
+.lista{
+    list-style: none;
+    display: flex;
+}
+.lista li{
+    letter-spacing: 3px;
+    margin-left: 30px;
+}

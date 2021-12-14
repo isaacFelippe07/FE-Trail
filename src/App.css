@@ -1,0 +1,49 @@
+body{
+  font-family: 'Creepster', cursive;
+  font-family: 'Outfit', sans-serif;
+  margin: 0px;
+  background: url("./images/fundo.jpg")no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.titulo{
+  text-align: center;
+  font-family: 'Creepster', cursive;
+  color:rgb(90, 230, 63);
+}
+.logo{
+  height: 100%;
+}
+.div-master{
+  width: 50%;
+  height: 80%;
+  margin-left: 20%;
+  margin-top: 10px;
+  padding: 98px;
+  background-color: rgba(24, 23, 23, 0.575);
+  color:rgb(216, 214, 214)
+}
+.primeira-imagem{
+  margin-left: 25%;
+  border-style:double;
+  width: 50%;
+  background-color: rgb(91, 247, 104);
+}
+.p-um{
+  margin-left: 22%; 
+  margin-right: 22%;
+}
+
+.card-episodio{
+  color:white;
+  width:100%;
+  border-radius: 5px;
+  margin: 14px 0;
+  margin-left: 2%;
+}
+.card-episodio li{
+  font: x-large;
+  font-weight: 550;
+  list-style: none;
+  color: white;
+}
