@@ -1,12 +1,14 @@
 import React from "react";
 import {gql, request} from 'graphql-request'
 
-export const query = gql`
+export const query = (page, dados_pesquisa="") => gql`
 query{
-    episodes(page:3){
+    episodes(filter:{name:"${dados_pesquisa}"}, page: ${page}){
       info{
         count 
         pages
+        next
+        prev
       }
         results{  
           name 
@@ -21,8 +23,8 @@ query{
     }
 `
 
-export function requisicao(){
- return  request('https://rickandmortyapi.com/graphql', query)
+export function requisicao(indice){
+ return  request('https://rickandmortyapi.com/graphql', query(indice))
 }
 
 export const exportQueryObject = {

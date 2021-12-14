@@ -7,10 +7,10 @@ export const Card = ({props = []}) =>{
        <>
            {props.map((dados)=>
             <div className="card">
-                <h3><a>Titulo:      </a>{dados.name}</h3>
-                <li><a>Temporada:   </a>{dados.episode}</li>
-                <li><a>Lancamento:  </a>{dados.air_date}</li>
-                <li><a>Personagens: </a>{dados.characters.map((personagens)=>personagens.name)}</li>
+                <h3><a>Title:      </a>{dados.name}</h3>
+                <li><a>Season:     </a>{dados.episode}</li>
+                <li><a>Release:    </a>{dados.air_date}</li>
+                <li><a>Characters: </a>{dados.characters.map((personagens)=>personagens.name)}</li>
            </div>
         )}
       </>

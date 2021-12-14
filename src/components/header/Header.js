@@ -3,7 +3,7 @@ import React from "react";
 import './Header.css';
 import Logo from '../../images/logo.jpeg'
 
-function Header(){
+function Header(setPesquisa){
     return(
         <div>
             <nav>
