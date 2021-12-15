@@ -23,8 +23,8 @@ query{
     }
 `
 
-export function requisicao(indice){
- return  request('https://rickandmortyapi.com/graphql', query(indice))
+export function requisicao(indice, dados_pesquisa){
+ return  request('https://rickandmortyapi.com/graphql', query(indice,dados_pesquisa))
 }
 
 export const exportQueryObject = {

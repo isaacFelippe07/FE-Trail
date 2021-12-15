@@ -13,7 +13,7 @@ function App() {
   const [episodios, setEpisodios] = useState([]);
   const [pagina, setPagina] = useState(1);
   const [infos, setInfos] = useState([]);
-  const [pesquisa, setPesquisa] = useState([]);
+  const [pesquisa, setPesquisa] = useState("");
 
 
   useEffect(()=>
@@ -28,7 +28,7 @@ function App() {
   
   return (        
     <div className="App">
-      <Header setPesquisa={setPesquisa} />   
+      <Header pesquisa={pesquisa} setPesquisa={setPesquisa} />   
       <div className="div-master">
         <Infos props={infos}/>
         {
